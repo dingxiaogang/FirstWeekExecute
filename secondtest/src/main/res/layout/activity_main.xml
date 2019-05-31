@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/main_home"
+            android:button="@null"
+            android:text="@string/home"
+            android:textColor="@drawable/selector_text_color"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_drawer_home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/main_find"
+            android:button="@null"
+            android:text="@string/find"
+            android:textColor="@drawable/selector_text_color"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_drawer_find"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/main_release"
+            android:button="@null"
+            android:src="@drawable/page_release"
+            android:layout_width="100dp"
+            android:paddingBottom="20dp"
+            android:layout_height="100dp" />
+        <RadioButton
+            android:id="@+id/main_grow"
+            android:button="@null"
+            android:text="@string/grow"
+            android:textColor="@drawable/selector_text_color"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_drawer_grow"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/main_me"
+            android:button="@null"
+            android:text="@string/me"
+            android:textColor="@drawable/selector_text_color"
+            android:gravity="center"
+            android:drawableTop="@drawable/selector_drawer_me"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+
+</LinearLayout>

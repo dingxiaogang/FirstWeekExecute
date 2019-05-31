@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ThirdTest</string>
+    <string name="home">首页</string>
+    <string name="mine">我的</string>
+    <string name="preference">当地保护</string>
+    <string name="creation">定制</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.BabyFragment"
+    android:background="@color/color_FFFFFF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/color_000000"
+            android:gravity="center_vertical"
+            android:text="@string/most_popular"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/baby_popular_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/color_F5F5F5" />
+
+        <TextView
+            android:textColor="@color/color_000000"
+            android:gravity="center_vertical"
+            android:text="@string/love_to_play"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/baby_play_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/color_F5F5F5" />
+
+        <TextView
+            android:textColor="@color/color_000000"
+            android:gravity="center_vertical"
+            android:text="@string/selected_time"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/baby_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+        </android.support.design.widget.TabLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/baby_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+
+</ScrollView>

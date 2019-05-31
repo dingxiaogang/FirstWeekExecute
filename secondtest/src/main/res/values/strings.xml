@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SecondTest</string>
+    <string name="home">主页</string>
+    <string name="me">我的</string>
+    <string name="find">发现</string>
+    <string name="grow">成长</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="theme">专题活动</string>
+    <string name="baby">人气宝贝</string>
+    <string name="most_popular">人气排名</string>
+    <string name="love_to_play">同龄宝宝最爱玩</string>
+    <string name="selected_time">精选宝贝时刻</string>
+    <string name="hot">最热精选</string>
+    <string name="latest">全部最新</string>
+</resources>
